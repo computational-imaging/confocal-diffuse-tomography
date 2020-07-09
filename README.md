@@ -11,7 +11,8 @@ The code is developed in Pytorch and supports both CPU and GPU execution. Most
 NVIDIA GPUs should be automatically detected and used.
 
 # List of contents 
-* `cdt.py` - main program to run the reconstructions and reproduce results of main
+* `main.py` - wrapper program called to generate results
+* `cdt_reconstruction.py` - contains processing code to run the reconstructions and reproduce results of main
 paper.
 * `data/cones.mat` - data file for Fig. 3
 * `data/letter_s.mat` - data file for Fig. 2
@@ -20,8 +21,9 @@ paper.
 * `data/mannequin.mat` - data file for Fig. 3
 * `README.txt` - this file
 * `requirements.txt` - list of requisite Python packages
-* setup.bash - example script to install a conda environment and required packages
+* `setup.bash` - example script to install a conda environment and required packages
 and run the code 
+* `utils.py` - contains helper functions for the processing 
 
 # Instructions
 To run the demo code, follow the instructions in the setup.bash
@@ -31,13 +33,13 @@ sets up a new Python 3.6 environment, installs the required Python packages
 (listed in `requirements.txt`), and runs the reconstruction code.
 
 The install time of the setup.bash script is less than 5 minutes on the tested
-configuration.  Runtime of the demo program `cdt.py` is less than one minute on
+configuration.  Runtime of the demo program `main.py` is less than one minute on
 the tested configuration and outputs. 
 
-The expected output of the `cdt.py` program is a figure showing maximum intensity
+The expected output of the `main.py` program is a figure showing maximum intensity
 projections of the selected 3D measurement volume and reconstruction.
 
-Execute `python cdt.py --help` for a list of commandline options for running 
+Execute `python main.py --help` for a list of commandline options for running 
 the demo.
 
 [Anaconda installation instructions](https://docs.anaconda.com/anaconda/install/)

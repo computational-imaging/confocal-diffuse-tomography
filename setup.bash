@@ -11,12 +11,12 @@ eval "$(conda shell.bash hook)"  # this is just required to activate an anaconda
 conda activate cdt
 pip install -r requirements.txt
 
-# run the reconstructions on captured data and display each for 5 sec.
-python cdt.py --scene letter_s  --pause 2  # reconstruct scene from Fig. 2
-python cdt.py --scene mannequin --pause 2  # reconstruct scene from Fig. 3
-python cdt.py --scene letters_ut --pause 2  # reconstruct scene from Fig. 3
-python cdt.py --scene letter_t --pause 2  # reconstruct scene from Fig. 3
-python cdt.py --scene cones --pause 2  # reconstruct scene from Fig. 3
+# run the reconstructions on captured data and display each for 2 sec.
+python main.py --scene letter_s  --pause 2  # reconstruct scene from Fig. 2
+python main.py --scene mannequin --pause 2  # reconstruct scene from Fig. 3
+python main.py --scene letters_ut --pause 2  # reconstruct scene from Fig. 3
+python main.py --scene letter_t --pause 2  # reconstruct scene from Fig. 3
+python main.py --scene cones --pause 2  # reconstruct scene from Fig. 3
 
 # optionally remove environment when finished with code
 # conda deactivate
