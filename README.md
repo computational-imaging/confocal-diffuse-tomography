@@ -18,7 +18,9 @@ paper.
 * `data/letter_s.mat` - data file for Fig. 2
 * `data/letters_ut.mat` - data file for Fig. 3
 * `data/letter_t.mat` - data file for Fig. 3
+* `data/letter_u*.mat` - data files shown in Supplementary Movie 2 for an object at varying distances behind the media
 * `data/mannequin.mat` - data file for Fig. 3
+* `data/resolution*.mat` - data files for Supplementary Fig. 17
 * `README.txt` - this file
 * `requirements.txt` - list of requisite Python packages
 * `setup.bash` - example script to install a conda environment and required packages
