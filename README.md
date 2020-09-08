@@ -3,6 +3,8 @@
 This repository contains the code to reproduce the results presented in "Three-dimensional imaging through scattering media based on confocal diffuse
 tomography" by David B. Lindell and Gordon Wetzstein.
 
+[Project Webpage](http://www.computationalimaging.org/publications/confocal-diffuse-tomography/)
+
 Code prerequisites: Linux-based operating system, installation of Anaconda or
 Miniconda. Developed and tested with Python 3.6 on Arch Linux kernel 5.6.8-arch1-1
 with an Intel Core i7-9750H CPU.
