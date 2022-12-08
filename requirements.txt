@@ -1,6 +1,6 @@
 absl-py==0.11.0
 cachetools==4.1.1
-certifi==2020.12.5
+certifi==2022.12.7
 chardet==3.0.4
 ConfigArgParse==1.2.3
 cycler==0.10.0
